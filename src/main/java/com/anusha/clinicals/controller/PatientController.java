@@ -18,7 +18,9 @@ import com.anusha.clinicals.repos.PatientRepository;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin //this allows spring to allow another application (React UI goin to be developed on port 3000) to communicate with this application hosted on tomcat 8080.
+@CrossOrigin // this allows spring to allow another application (React UI going to be
+				// developed on port 3000) to communicate with this application hosted on tomcat
+				// 8080.
 public class PatientController {
 
 	private PatientRepository patientRepo;
